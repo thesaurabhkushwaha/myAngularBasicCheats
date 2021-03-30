@@ -10,7 +10,7 @@ import { throwError } from 'rxjs';
 })
 export class EmployeeService {
 
-  private url:string = "/assets/data/employees.json";
+  private url:string = "https://github.com/thesaurabhkushwaha/myAngularBasicCheats/blob/gh-pages/src/assets/data/employees.json";
   constructor(private http:HttpClient) { }
 
   getEmployees():Observable<IEmployee[]>{
