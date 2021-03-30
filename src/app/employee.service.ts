@@ -10,7 +10,7 @@ import { throwError } from 'rxjs';
 })
 export class EmployeeService {
 
-  private url:string = "/assets/data/employees1.json";
+  private url:string = "/assets/data/employees.json";
   constructor(private http:HttpClient) { }
 
   getEmployees():Observable<IEmployee[]>{
